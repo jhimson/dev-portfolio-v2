@@ -1,5 +1,6 @@
 import React from 'react';
 import ProjectCard from './ProjectCard';
+import SkillCard from './SkillCard';
 
 const Skills = () => {
   return (
@@ -21,7 +22,7 @@ const Skills = () => {
             ></path>
           </svg>
         </h1>
-        <div className="header text-center w-[48em]">
+        <div className="header text-center w-[72em]">
           <h1 className="text-gray-100 font-bold text-5xl">
             Skills & Technologies
           </h1>
@@ -29,8 +30,35 @@ const Skills = () => {
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum
             asperiores repellendus illum amet eaque maxime porro veniam velit
             alias, autem cumque animi, exercitationem error consequuntur. Itaque
+            in labore at tenetur.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum
+            asperiores repellendus illum amet eaque maxime porro veniam velit
+            alias, autem cumque animi, exercitationem error consequuntur. Itaque
             in labore at tenetur.
           </p>
+          <div className='flex space-x-8 mb-4'>
+            <SkillCard skill={'JavaScript'}/>
+            <SkillCard skill={'Python'}/>
+          </div>
+          <div className='flex space-x-8 mb-4'>
+            <SkillCard skill={'React'}/>
+            <SkillCard skill={'Redux'}/>
+          </div>
+          <div className='flex space-x-8 mb-4'>
+            <SkillCard skill={'Node.js'}/>
+            <SkillCard skill={'Express'}/>
+          </div>
+          <div className='flex space-x-8 mb-4'>
+            <SkillCard skill={'Django'}/>
+            <SkillCard skill={'MongoDB'}/>
+          </div>
+          <div className='flex space-x-8 mb-4'>
+            <SkillCard skill={'Mongoose'}/>
+            <SkillCard skill={'PostgreSQL'}/>
+          </div>
+          <div className='flex space-x-8 mb-4'>
+            <SkillCard skill={'Tailwindcss'}/>
+            <SkillCard skill={'Bootstrap'}/>
+          </div>
         </div>
       </div>
     </div>

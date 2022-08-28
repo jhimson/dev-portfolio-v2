@@ -21,7 +21,7 @@ const Projects = () => {
             />
           </svg>
         </h1>
-        <div className="header text-center w-[32em]">
+        <div className="header text-center w-[48em]">
           <h1 className="text-gray-100 font-bold text-5xl">Apps I've Built</h1>
           <p className="text-lg text-gray-400 mt-8 mb-10">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum
@@ -40,6 +40,7 @@ const Projects = () => {
           <ProjectCard />
           <ProjectCard />
         </div>
+        
       </div>
     </div>
   );

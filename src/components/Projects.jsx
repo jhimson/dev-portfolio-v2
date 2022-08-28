@@ -1,9 +1,15 @@
 import React from 'react';
 import ProjectCard from './ProjectCard';
 
+//! Images
+import devtability from '../assets/images/devtability.gif';
+import thehood from '../assets/images/thehood.gif';
+import tasty from '../assets/images/tasty.gif';
+import trivia from '../assets/images/trivia.gif';
+
 const Projects = () => {
   return (
-    <div className="h-screen flex bg-black justify-center">
+    <div className="h-auto flex bg-black justify-center py-14">
       <div className="flex flex-col items-center space-y-8">
         <h1>
           <svg
@@ -31,16 +37,22 @@ const Projects = () => {
           </p>
         </div>
 
-        {/* <div className="Projects grid grid-cols-2 justify-items-center gap-x-0 bg-red-200"> */}
-        <div className='Projects flex items-center justify-center space-x-12'>
-          <ProjectCard />
+        <div className="Projects grid grid-cols-2 justify-items-center gap-y-14 mx-[8em]">
+          <ProjectCard title={'Devtability'} image={devtability} />
+          <ProjectCard
+            title={'TheHood - Stock Investment Tracker'}
+            image={thehood}
+          />
+          <ProjectCard title={'Tasty - Recipe Search App'} image={tasty} />
+          <ProjectCard title={'Trivia Quiz App'} image={trivia} />
+          {/* <div className="Projects flex items-center justify-center space-x-12"> */}
+          {/* <ProjectCard />
           <ProjectCard />
         </div>
         <div className='Projects flex items-center justify-center space-x-12'>
           <ProjectCard />
-          <ProjectCard />
+          <ProjectCard /> */}
         </div>
-        
       </div>
     </div>
   );

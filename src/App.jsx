@@ -9,8 +9,8 @@ function App() {
     <main className="h-screen">
       <Navbar />
       <About />
-      <Projects />
       <Skills />
+      <Projects />
     </main>
   );
 }

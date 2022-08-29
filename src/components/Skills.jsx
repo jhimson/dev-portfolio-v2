@@ -5,7 +5,7 @@ import SkillCard from './SkillCard';
 const Skills = () => {
   return (
     <div className="h-screen flex bg-black justify-center">
-      <div className="flex flex-col items-center space-y-8 mt-48">
+      <div className="flex flex-col items-center space-y-8">
         <h1>
           <svg
             className="h-14 w-14 text-gray-400"
@@ -27,37 +27,40 @@ const Skills = () => {
             Skills & Technologies
           </h1>
           <p className="text-lg text-gray-400 mt-8 mb-10">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum
+            These are the few technologies that I have been working with
+            recently. I enjoy working with these technologies but I also enjoy
+            exploring new tools & technologies that are popular nowadays.
+            {/* Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum
             asperiores repellendus illum amet eaque maxime porro veniam velit
             alias, autem cumque animi, exercitationem error consequuntur. Itaque
             in labore at tenetur.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum
             asperiores repellendus illum amet eaque maxime porro veniam velit
             alias, autem cumque animi, exercitationem error consequuntur. Itaque
-            in labore at tenetur.
+            in labore at tenetur. */}
           </p>
-          <div className='flex space-x-8 mb-4'>
-            <SkillCard skill={'JavaScript'}/>
-            <SkillCard skill={'Python'}/>
+          <div className="flex space-x-8 mb-4">
+            <SkillCard skill={'JavaScript'} />
+            <SkillCard skill={'Python'} />
           </div>
-          <div className='flex space-x-8 mb-4'>
-            <SkillCard skill={'React'}/>
-            <SkillCard skill={'Redux'}/>
+          <div className="flex space-x-8 mb-4">
+            <SkillCard skill={'React'} />
+            <SkillCard skill={'Redux'} />
           </div>
-          <div className='flex space-x-8 mb-4'>
-            <SkillCard skill={'Node.js'}/>
-            <SkillCard skill={'Express'}/>
+          <div className="flex space-x-8 mb-4">
+            <SkillCard skill={'Node.js'} />
+            <SkillCard skill={'Express'} />
           </div>
-          <div className='flex space-x-8 mb-4'>
-            <SkillCard skill={'Django'}/>
-            <SkillCard skill={'MongoDB'}/>
+          <div className="flex space-x-8 mb-4">
+            <SkillCard skill={'Django'} />
+            <SkillCard skill={'MongoDB'} />
           </div>
-          <div className='flex space-x-8 mb-4'>
-            <SkillCard skill={'Mongoose'}/>
-            <SkillCard skill={'PostgreSQL'}/>
+          <div className="flex space-x-8 mb-4">
+            <SkillCard skill={'Mongoose'} />
+            <SkillCard skill={'PostgreSQL'} />
           </div>
-          <div className='flex space-x-8 mb-4'>
-            <SkillCard skill={'Tailwindcss'}/>
-            <SkillCard skill={'Bootstrap'}/>
+          <div className="flex space-x-8 mb-4">
+            <SkillCard skill={'Tailwindcss'} />
+            <SkillCard skill={'Bootstrap'} />
           </div>
         </div>
       </div>

@@ -30,10 +30,11 @@ const Projects = () => {
         <div className="header text-center w-[48em]">
           <h1 className="text-gray-100 font-bold text-5xl">Apps I've Built</h1>
           <p className="text-lg text-gray-400 mt-8 mb-10">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum
-            asperiores repellendus illum amet eaque maxime porro veniam velit
-            alias, autem cumque animi, exercitationem error consequuntur. Itaque
-            in labore at tenetur.
+            After my journey being a self taught developer and my time attending
+            the Software engineering immersive bootcamp at General Assembly. I
+            have built these amazing apps that I am proud of. My goal is to
+            build applications that are useful to the community, and it makes me
+            happy to know that people are using the apps that I built.
           </p>
         </div>
 

@@ -10,8 +10,7 @@ import {
 const Footer = () => {
   return (
     <div
-      className="flex flex-col items-center justify-center mt-24 space-y-5 h-36"
-      style={{ backgroundColor: '#091c29' }}
+      className="flex flex-col items-center justify-center space-y-5 h-36 bg-slate-900"
     >
       <div className="flex space-x-5 icons">
         <a href="https://github.com/jhimson" target={'_blank'} rel="noreferrer">
